@@ -1,18 +1,33 @@
 import React from 'react';
-import {ScrollView, View} from 'react-native';
-import MyShapes from './_shapes';
-import Hexagon from './styles';
-
-function App() {
+// reaact elements we use for app
+import {Text, View, SafeAreaView, StyleSheet} from 'react-native';
+// ! type decalration for ensuring js element
+function App(): JSX.Element {
   return (
-    <ScrollView>
-      <View style={{alignItems: 'center'}}>
-        <MyShapes /> <Hexagon />
-        <MyShapes />
-        <MyShapes />
+    <SafeAreaView>
+      <View style={firstScreenStyle.centerAlignItems}>
+        <Text style={firstScreenStyle.appWelcomePageTExt}>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
       </View>
-    </ScrollView>
+    </SafeAreaView>
   );
 }
 
+const firstScreenStyle = StyleSheet.create({
+  appWelcomePageTExt: {
+    textAlign: 'center',
+
+    color: 'purple',
+    fontSize: 30,
+    fontWeight: '600',
+    
+  },
+
+  centerAlignItems: {alignItems: 'center'},
+});
+
 export default App;
+
+
