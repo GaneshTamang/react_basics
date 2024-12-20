@@ -11,3 +11,7 @@ here u can pull code
 <pre><code> ~~ git pull /clone  (remote local) ~~ </code>  
 </pre>
  ~~ git pull /clone  (remote local) ~~
+
+
+ change1 
+ done
