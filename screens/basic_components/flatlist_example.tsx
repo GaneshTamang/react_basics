@@ -2,17 +2,17 @@ import { FlatList, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
 function FlatListExample() {
-  const itemList:JSX.Element[] = [
-    <View style={[FatListExampleStyle.cardElevated, FatListExampleStyle.cardOne]} key="1">
+  const itemList: JSX.Element[] = [
+    <View style={[FatListExampleStyle.CardBox, FatListExampleStyle.cardOne]} key="1">
       <Text>Box1</Text>
     </View>,
-    <View style={[FatListExampleStyle.cardElevated, FatListExampleStyle.cardTwo]} key="2">
+    <View style={[FatListExampleStyle.CardBox, FatListExampleStyle.cardTwo]} key="2">
       <Text>Box2</Text>
     </View>,
-    <View style={[FatListExampleStyle.cardElevated, FatListExampleStyle.cardthree]} key="3">
+    <View style={[FatListExampleStyle.CardBox, FatListExampleStyle.cardthree]} key="3">
       <Text>Box3</Text>
     </View>,
-    <View style={[FatListExampleStyle.cardElevated, FatListExampleStyle.cardfour]} key="4">
+    <View style={[FatListExampleStyle.CardBox, FatListExampleStyle.cardfour]} key="4">
       <Text>Box4</Text>
     </View>,
   ];
@@ -38,16 +38,16 @@ const FatListExampleStyle = StyleSheet.create({
   },
   container: {
     flex: 1,
-    margin:5
+    margin: 5
   },
-  cardElevated: {
+  CardBox: {
     justifyContent: 'center',
     alignItems: 'center',
     height: 100,
     width: 100,
     margin: 10,
     borderRadius: 15,
-  
+
   },
   cardOne: {
     backgroundColor: 'red',
