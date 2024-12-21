@@ -2,6 +2,7 @@ import { Image, Linking, StyleSheet, Text, TouchableOpacity, View } from 'react-
 import React from 'react'
 
 const Action_Card_Example = () => {
+    // ! linking to open url on press method
 
     function openWebsite(websiteLink: string) { Linking.openURL(websiteLink); };
     return (
