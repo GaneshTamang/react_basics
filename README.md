@@ -8,9 +8,8 @@
 
 here u can pull code
  
-<pre><code> ~~ git pull /clone  (remote local) ~~ </code>  
-</pre>
- ~~ git pull /clone  (remote local) ~~
+<pre><code> git pull /clone  (remote local)  </code>  </pre>
+
 
 
  change1 

@@ -12,7 +12,8 @@ function Main_app() {
   return (
     <ScrollView >
       <View style={mainPageStyles.mainContainer} >
-        <Text>WElcome</Text>
+
+
         <ElevatedScroll />
         <FlatListExample />
         <Image_Example />

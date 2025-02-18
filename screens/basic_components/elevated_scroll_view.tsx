@@ -56,12 +56,12 @@ const elevatedContainerScrollPageStyles = StyleSheet.create({
     height: 100,
     width: 100,
     margin: 15,
-    borderRadius: 25,
-    elevation: 5,
+    borderRadius: 50,
+    elevation: 30,
     shadowColor: "black",
-    shadowOpacity: 0.5,
-    shadowOffset: { height: 3, width: 8 },
-    shadowRadius: 10, opacity: 1
+    shadowOpacity: 1,
+    shadowOffset: { height: 50, width: 50 },
+    shadowRadius: 50,
 
   },
 
