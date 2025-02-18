@@ -3,23 +3,23 @@ import React from 'react';
 
 function FlatListExample() {
   const itemList: JSX.Element[] = [
-    <View style={[FatListExampleStyle.CardBox, FatListExampleStyle.cardOne]} key="1">
+    <View style={[FlatListExampleStyle.CardBox, FlatListExampleStyle.cardOne]} key="1">
       <Text>Box1</Text>
     </View>,
-    <View style={[FatListExampleStyle.CardBox, FatListExampleStyle.cardTwo]} key="2">
+    <View style={[FlatListExampleStyle.CardBox, FlatListExampleStyle.cardTwo]} key="2">
       <Text>Box2</Text>
     </View>,
-    <View style={[FatListExampleStyle.CardBox, FatListExampleStyle.cardthree]} key="3">
+    <View style={[FlatListExampleStyle.CardBox, FlatListExampleStyle.cardthree]} key="3">
       <Text>Box3</Text>
     </View>,
-    <View style={[FatListExampleStyle.CardBox, FatListExampleStyle.cardfour]} key="4">
+    <View style={[FlatListExampleStyle.CardBox, FlatListExampleStyle.cardfour]} key="4">
       <Text>Box4</Text>
     </View>,
   ];
 
   return (
-    <View style={[FatListExampleStyle.container, { padding: 15 }]}>
-      <Text style={FatListExampleStyle.textHeading}>Flat List </Text>
+    <View style={[FlatListExampleStyle.container, { padding: 15 }]}>
+      <Text style={FlatListExampleStyle.textHeading}>Flat List </Text>
       <FlatList
         horizontal
         data={itemList}
@@ -30,7 +30,7 @@ function FlatListExample() {
   );
 }
 
-const FatListExampleStyle = StyleSheet.create({
+const FlatListExampleStyle = StyleSheet.create({
   textHeading: {
     fontSize: 20,
     fontWeight: 'bold',
